@@ -14,7 +14,7 @@ public class JvmComprehension {
 
         int i = 1;                      // 1 - В фрейме Main, в Stack создаётся переменная int i = 1;
 
-        Object o = new Object();        // 2 - New Object с название "о" создаётся в Heep,
+        Object o = new Object();        // 2 - New Object создаётся в Heep,
                                         // а в фрейме Main ссылка на этот объект
 
         Integer ii = 2;                 // 3 - Integer ii = 2; создаётся в Heep, а в фрейме Main ссылка на него
